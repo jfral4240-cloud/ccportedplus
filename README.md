@@ -1,2 +1,2 @@
-# ccportedplus
-Purely CCPorted Plus. This is a different way to access ARANDOMDEV's CCPORTED+
+My better version of the popular game site CCPORTED.
+Thank you to them for the original code, check the mout at ccported.github.io

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Primary sitemap
+Sitemap: https://arandomdev12.github.io/sitemap.xml
+
+Host: arandomdev12.github.io

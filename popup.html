@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about:blank</title>
+    <script>
+        function openPopup(url) {
+            if (url) {
+                window.open(url, "_blank", "width=400,height=400,toolbar=no,menubar=no,location=no,resizable=no,scrollbars=no");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Open a Popup</h1>
+    <label for="urlInput">Enter a URL to open(add the "https://" as well.):</label>
+    <input type="text" id="urlInput" placeholder="https://example.com">
+    <button onclick="openPopup(document.getElementById('urlInput').value)">Open URL</button>
+
+    <h2>Or choose from presets:</h2>
+    <button onclick="openPopup('https://www.google.com')">Google</button>
+    <button onclick="openPopup('https://www.youtube.com')">YouTube</button>
+    <button onclick="openPopup('https://www.github.com')">GitHub</button>
+
+    <p>Enter a custom URL or click a button to open the site in a popup window.</p>
+</body>
+</html>
